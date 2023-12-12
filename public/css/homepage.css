@@ -1,3 +1,5 @@
+/* homepage.css */
+
 body {
   background-color: #333;
   color: white;
@@ -5,7 +7,7 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
@@ -27,10 +29,15 @@ main {
 .blog {
   border: 1px solid #ddd;
   padding: 20px;
-  border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.8); /* More opaque color */
-  margin-bottom: 20px; /* Spacing between blogs */
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 20px;
   text-align: center; /* Center text */
+  transition: box-shadow 0.3s;
+}
+
+.blog:hover {
+  box-shadow: 0 8px 16px rgba(0, 183, 148, 0.7); 
 }
 
 .blog img {
@@ -40,19 +47,19 @@ main {
 
 .blog h2 {
   margin-top: 0;
-  color: #78e3ac; /* Green color for h2 */
+  color: #78e3ac;
 }
 
 .blog p {
   margin-bottom: 0;
-  color: #ccc; /* Lighter text color */
+  color: #ccc;
 }
 
 .blog a {
   text-decoration: none;
-  color: #78e3ac; /* Green color for links */
+  color: #78e3ac;
 }
 
 .blog a:hover {
-  color: #5cb85c; /* Darker green color on hover */
+  color: #5cb85c;
 }
