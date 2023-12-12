@@ -5,14 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tech Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/styles.css">
 </head>
 
 <body>
   <div class="flex-column justify-space-around">
-    <header class="display-flex justify-space-between align-center p-2">
+    <header class="header">
       <h1>
-        <a href="/">Tech Blog</a>
+       <i class="fa-solid fa-microchip" style="color: #78e3ac;"></i> <a href="/">Tech Blog</a>
       </h1>
       <nav>
     
@@ -35,6 +38,7 @@
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
   {{/if}}
+  <script src="https://kit.fontawesome.com/620809e3a9.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
