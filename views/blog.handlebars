@@ -1,9 +1,28 @@
-<div class="text-center">
-  <h2>{{name}}</h2>
-  <p>{{description}}</p>
-  <p>{{content}}</p>
-  <p>Created by {{user.name}} on {{format_date date_created}}</p>
-  <p>
-                               /// COME BACK TO THIS TO MAKE A LEAVE A COMMENT BUTTON
-  </p>
-</div>
+<!-- blog.handlebars -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/blog.css"> <!-- Include the blog.css file -->
+    <title>Your Tech Blog</title>
+</head>
+<body>
+    <div class="text-center">
+        <h2>{{name}}</h2>
+        <p>{{description}}</p>
+        <p>{{content}}</p>
+        <p>Created by {{user.name}} on {{format_date date_created}}</p>
+       
+          <section class="comment-section">
+            <h3>Leave a Comment</h3>
+            <form class="comment-form">
+                <textarea id="comment-input" placeholder="Write your comment here..." rows="4"></textarea>
+                <button type="submit" class="btn btn-primary">Submit Comment</button>
+            </form>
+        </section>
+      
+    </div>
+</body>
+</html>

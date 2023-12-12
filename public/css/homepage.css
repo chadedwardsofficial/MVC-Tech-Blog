@@ -28,6 +28,9 @@ main {
   border: 1px solid #ddd;
   padding: 20px;
   border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.8); /* More opaque color */
+  margin-bottom: 20px; /* Spacing between blogs */
+  text-align: center; /* Center text */
 }
 
 .blog img {
@@ -37,8 +40,19 @@ main {
 
 .blog h2 {
   margin-top: 0;
+  color: #78e3ac; /* Green color for h2 */
 }
 
 .blog p {
   margin-bottom: 0;
+  color: #ccc; /* Lighter text color */
+}
+
+.blog a {
+  text-decoration: none;
+  color: #78e3ac; /* Green color for links */
+}
+
+.blog a:hover {
+  color: #5cb85c; /* Darker green color on hover */
 }

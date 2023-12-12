@@ -1,0 +1,63 @@
+/* blog.css */
+body{
+  background-color: #333;
+}
+.text-center {
+  text-align: center;
+  color: white;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.text-center h2 {
+  font-size: 36px;
+  color: #78e3ac;
+}
+
+.text-center p {
+  margin-bottom: 20px;
+}
+
+.text-center a {
+  text-decoration: none;
+  color: #78e3ac;
+}
+
+.text-center a:hover {
+  color: #5cb85c;
+}
+
+.comment-section {
+  margin-top: 30px;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#comment-input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #78e3ac;
+}
+
+.btn-primary:hover {
+  background-color: #5cb85c;
+}
