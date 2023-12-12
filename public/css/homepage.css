@@ -1,0 +1,44 @@
+body {
+  background-color: #333;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+main {
+  padding: 20px 0;
+}
+
+.blog {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.blog img {
+  max-width: 100%;
+  height: auto;
+}
+
+.blog h2 {
+  margin-top: 0;
+}
+
+.blog p {
+  margin-bottom: 0;
+}
